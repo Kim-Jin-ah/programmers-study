@@ -4,6 +4,12 @@ def solution(a, b):
     while y:
         x,y = y,x%y
     b //= x
+
+# 혹은
+# import math
+# def solution(a, b):
+#     gcd = math.gcd(a, b)
+#     b //= gcd
     
     while b % 2 == 0:
         b //= 2
