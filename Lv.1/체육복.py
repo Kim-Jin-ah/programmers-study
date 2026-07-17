@@ -1,6 +1,8 @@
 def solution(n, lost, reserve):
-    lost = sorted(list(set(lost) - set(reserve)))
-    reserve = sorted(list(set(reserve) - set(lost)))
+    lost_set = set(lost)
+    reserve_set = set(reserve)
+    lost = sorted(list(lost_set - reserve_set))
+    reserve = sorted(list(reserve_set - lost_set))
     
     for i in reserve:
         if i-1 in lost:
