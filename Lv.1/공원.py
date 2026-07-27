@@ -9,13 +9,10 @@ def solution(mats, park):
             for j in range(col-mat+1):
                 possible = True
                 
-                for x in range(mat):
-                    for y in range(mat):
-                        if park[i+x][i+y] != "-1":
+                for x in range(i,i+mat):
+                    for y in range(j,j+mat):
+                        if park[x][y] != "-1":
                             possible = False
-                            break
-                    if not possible:
-                        break
                 if possible:
                     return mat
             
