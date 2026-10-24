@@ -1,4 +1,4 @@
 SELECT MAX(PRICE) AS MAX_PRICE
 FROM PRODUCT
 
-## 기본 최대값 구하기 문제
+# 기본 최대값 구하기 문제
