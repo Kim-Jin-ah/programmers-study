@@ -1,0 +1,6 @@
+SELECT PT_NAME,PT_NO,GEND_CD,AGE,IFNULL(TLNO,'NONE')
+FROM PATIENT
+WHERE (AGE <= 12) AND (GEND_CD = 'W')
+ORDER BY AGE Desc, PT_NAME;
+
+# 조건에 맞는 것을 출력해 정렬하고, IFNULL을 사용해 NULL인 칸은 'NONE'으로 변경
