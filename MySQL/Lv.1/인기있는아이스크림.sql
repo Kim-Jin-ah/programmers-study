@@ -1,0 +1,5 @@
+SELECT FLAVOR
+FROM FIRST_HALF
+ORDER BY TOTAL_ORDER Desc,SHIPMENT_ID;
+
+# 정렬을 두 가지 사용했을 때 풀이를 물어보는 문제
