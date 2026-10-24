@@ -1,0 +1,6 @@
+SELECT DR_NAME,DR_ID,MCDP_CD,HIRE_YMD
+FROM DOCTOR
+WHERE (MCDP_CD = "CS") OR (MCDP_CD = "GS")
+ORDER BY HIRE_YMD Desc;
+
+# 조건에 맞는 것을 찾아 내림차순 정리 문제
