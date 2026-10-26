@@ -1,0 +1,13 @@
+SELECT ANIMAL_ID,NAME,LEFT(DATETIME,10) AS "날짜"
+FROM ANIMAL_INS
+ORDER BY ANIMAL_ID;
+
+## 풀이전략, 핵심 아이디어
+# 왼쪽에서부터 10번째까지가 날짜이므로 그 부분만 추출하는 방법
+#DATE_FORMAT을 사용한다면
+SELECT
+    ANIMAL_ID,
+    NAME,
+    DATE_FORMAT(DATETIME, '%Y-%m-%d') AS 날짜
+FROM ANIMAL_INS
+ORDER BY ANIMAL_ID ASC;
