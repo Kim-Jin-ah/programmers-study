@@ -1,0 +1,8 @@
+SELECT NAME, COUNT(NAME) AS COUNT
+FROM ANIMAL_INS
+GROUP BY NAME
+HAVING COUNT >= 2
+ORDER BY NAME;
+
+## 풀이전략, 핵심 아이디어
+# AS를 사용하여 컬럼 이름을 바꾸고 HAVING으로 그룹화한 컬럼 필터링
