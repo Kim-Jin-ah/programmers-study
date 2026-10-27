@@ -1,0 +1,5 @@
+SELECT SUM(PRICE) AS TOTAL_PRICE
+FROM ITEM_INFO
+WHERE RARITY = "LEGEND";
+
+# 조건에 맞는 열을 찾고 그것의 가격을 모두 합한 것을 SELECT
