@@ -1,0 +1,7 @@
+class Solution {
+    public int solution(int n, int k) {
+        return 12000*n + 2000*k - (n/10)*2000;
+    }
+}
+
+# 단순계산문제
