@@ -17,6 +17,6 @@ class Solution {
     }
 }
 
-## 풀이전략, 핵심 아이디어
-# 크기가 가변적인 ArrayList에 먼저 담아둔 뒤 일반 배열 int[]로 변환
-# 향상된 for문 형태( for (int num : numlist) ) 도 사용해보기
+// 풀이전략, 핵심 아이디어
+// 크기가 가변적인 ArrayList에 먼저 담아둔 뒤 일반 배열 int[]로 변환
+// 향상된 for문 형태( for (int num : numlist) ) 도 사용해보기
