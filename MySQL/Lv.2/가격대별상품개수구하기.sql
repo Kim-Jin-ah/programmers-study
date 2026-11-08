@@ -3,4 +3,4 @@ FROM PRODUCT
 GROUP BY PRICE_GROUP
 ORDER BY PRICE_GROUP;
 
-# TRUNCATE()로 지정 자리 기준으로 아래 자릿수 버리기 -> 가격대별로 묶기 가능
+-- TRUNCATE()로 지정 자리 기준으로 아래 자릿수 버리기 -> 가격대별로 묶기 가능
