@@ -2,4 +2,4 @@ SELECT NAME,DATETIME
 FROM ANIMAL_INS
 ORDER BY ANIMAL_ID Desc;
 
-# 내림차순 정렬을 물어보는 문제
+-- 내림차순 정렬
