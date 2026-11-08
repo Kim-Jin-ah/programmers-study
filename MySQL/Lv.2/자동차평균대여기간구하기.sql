@@ -4,5 +4,5 @@ GROUP BY CAR_ID
 HAVING AVERAGE_DURATION >= 7
 ORDER BY AVERAGE_DURATION DESC, CAR_ID DESC;
 
-# 풀이전략, 핵심 아이디어
-# 두 날짜 사이의 일수 차이를 계산하기 위해 DATEDIFF 사용
+-- 풀이전략, 핵심 아이디어
+-- 두 날짜 사이의 일수 차이를 계산하기 위해 DATEDIFF 사용
