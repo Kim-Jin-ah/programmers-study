@@ -7,7 +7,8 @@ WHERE T.PARENT_ITEM_ID IN
     FROM ITEM_INFO
     WHERE RARITY = "RARE")
 ORDER BY I.ITEM_ID DESC;
-# 서브쿼리 사용 또는
+-- 서브쿼리 사용 또는
+
 SELECT
     I.ITEM_ID,
     I.ITEM_NAME,
@@ -19,6 +20,5 @@ JOIN ITEM_INFO P
     ON T.PARENT_ITEM_ID = P.ITEM_ID
 WHERE P.RARITY = 'RARE'
 ORDER BY I.ITEM_ID DESC;
-# JOIN을 두번 사용
-
-# JOIN을 두 번 사용하더라도 각각의 역할이 다름 인지
+-- JOIN을 두번 사용
+-- JOIN을 두 번 사용하더라도 각각의 역할이 다름 인지
