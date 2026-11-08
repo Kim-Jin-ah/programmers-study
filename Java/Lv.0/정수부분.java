@@ -4,5 +4,5 @@ class Solution {
     }
 }
 
-## 풀이전략, 핵심 아이디어
-# double을 int로 변환
+// 풀이전략, 핵심 아이디어
+// double을 int로 변환
