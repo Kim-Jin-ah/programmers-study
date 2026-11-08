@@ -14,9 +14,9 @@ class Solution {
     }
 }
 
-## 풀이전략, 핵심 아이디어
-# Character 클래스의 메서드를 이용해 대소문자 구분 및 변환
-# ASCII 코드를 활용하는 방법으로는
+// 풀이전략, 핵심 아이디어
+// Character 클래스의 메서드를 이용해 대소문자 구분 및 변환
+// ASCII 코드를 활용하는 방법으로는
 class Solution {
     public String solution(String my_string) {
         String answer = "";
@@ -34,4 +34,4 @@ class Solution {
         return answer;
     }
 }
-# 영어 알파벳의 대소문자 코드 차이가 32인 사실 활용
+// 영어 알파벳의 대소문자 코드 차이가 32인 사실 활용
