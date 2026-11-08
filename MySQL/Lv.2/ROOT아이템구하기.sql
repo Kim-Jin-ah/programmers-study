@@ -5,4 +5,4 @@ ON I.ITEM_ID = T.ITEM_ID
 WHERE T.PARENT_ITEM_ID IS NULL
 ORDER BY I.ITEM_ID;
 
-# ITEM_ID끼리 조인하고 값이 NULL인 것 찾기
+-- ITEM_ID끼리 조인하고 값이 NULL인 것 찾기
