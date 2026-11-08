@@ -8,5 +8,5 @@ class Solution {
     }
 }
 
-## 풀이전략, 핵심 아이디어
-# length, length()의 차이점 구분할 수 있어야함
+// 풀이전략, 핵심 아이디어
+// length, length()의 차이점 구분할 수 있어야함
