@@ -3,4 +3,4 @@ FROM FOOD_FACTORY
 WHERE ADDRESS LIKE '강원도%'
 ORDER BY FACTORY_ID;
 
-# LIKE,%를 사용해 조건에 맞는 값 구하고 오름차순 정리
+-- LIKE,%를 사용해 조건에 맞는 값 구하고 오름차순 정리
