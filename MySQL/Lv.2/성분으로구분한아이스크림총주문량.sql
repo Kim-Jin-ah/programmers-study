@@ -5,5 +5,5 @@ ON F.FLAVOR = I.FLAVOR
 GROUP BY I.INGREDIENT_TYPE
 ORDER BY TOTAL_ORDER;
 
-# JOIN과 GROUP BY를 사용한 문제
-# SUM()한 후 이름 확인 및 변경 항상 조심하기
+-- JOIN과 GROUP BY를 사용한 문제
+-- SUM()한 후 이름 확인 및 변경 항상 조심하기
