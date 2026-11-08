@@ -10,5 +10,5 @@ class Solution {
     }
 }
 
-## 풀이전략, 핵심 아이디어
-# 조건에 만족하면 바로 return. return 0도 잊지말기
+// 풀이전략, 핵심 아이디어
+// 조건에 만족하면 바로 return. return 0도 잊지말기
