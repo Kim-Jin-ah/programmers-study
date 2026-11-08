@@ -6,7 +6,7 @@ WHERE ADDRESS LIKE "서울%"
 GROUP BY REST_ID
 ORDER BY SCORE Desc, FAVORITES Desc;
 
-## 풀이전략, 핵심 아이디어
-# INEER JOIN으로 두 개를 묶고
-# 조건에 맞는 것(주소가 서울로 시작)을 찾고, 같은 식당끼리 그룹화 후
-# 정렬 및 출력(SCORE는 두번째까지 올림)
+-- 풀이전략, 핵심 아이디어
+-- INEER JOIN으로 두 개를 묶고
+-- 조건에 맞는 것(주소가 서울로 시작)을 찾고, 같은 식당끼리 그룹화 후
+-- 정렬 및 출력(SCORE는 두번째까지 올림)
