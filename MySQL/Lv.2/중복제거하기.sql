@@ -2,8 +2,8 @@ SELECT COUNT(DISTINCT NAME) AS count
 FROM ANIMAL_INS
 WHERE NAME IS NOT NULL;
 
-## 중복을 제거한 개수를 구하라는 문제 -> COUNT(DISTINCT 컬럼명)
-# GROUP BY를 사용한다면
+-- 중복을 제거한 개수를 구하라는 문제 -> COUNT(DISTINCT 컬럼명)
+-- GROUP BY를 사용한다면
 SELECT COUNT(*) AS count
 FROM (
     SELECT NAME
