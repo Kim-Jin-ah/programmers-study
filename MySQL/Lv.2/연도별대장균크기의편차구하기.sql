@@ -6,6 +6,6 @@ INNER JOIN (SELECT YEAR(DIFFERENTIATION_DATE) AS YEAR, MAX(SIZE_OF_COLONY) AS MA
 ON YEAR(E.DIFFERENTIATION_DATE) = F.YEAR
 ORDER BY YEAR, YEAR_DEV;
 
-## 풀이전략, 핵심 아이디어
-# 서브쿼리를 사용하여 연도별 최대 대장균의 크기를 구한 후
-# 서브쿼리와 원본 테이블을 JOIN으로 연결
+-- 풀이전략, 핵심 아이디어
+-- 서브쿼리를 사용하여 연도별 최대 대장균의 크기를 구한 후
+-- 서브쿼리와 원본 테이블을 JOIN으로 연결
