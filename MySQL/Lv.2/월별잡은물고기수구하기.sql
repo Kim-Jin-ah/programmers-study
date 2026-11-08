@@ -3,4 +3,4 @@ FROM FISH_INFO
 GROUP BY MONTH
 ORDER BY MONTH;
 
-# 물고기를 잡은 날짜에서 월만 추출한 뒤, 월별로 잡은 물고기 수 집계
+-- 물고기를 잡은 날짜에서 월만 추출한 뒤, 월별로 잡은 물고기 수 집계
