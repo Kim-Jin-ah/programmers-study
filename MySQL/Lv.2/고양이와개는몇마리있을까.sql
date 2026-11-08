@@ -3,4 +3,4 @@ FROM ANIMAL_INS
 GROUP BY ANIMAL_TYPE
 ORDER BY ANIMAL_TYPE;
 
-# GROUP BY로 동물타입별로 묶고, 각 수 구하기
+-- GROUP BY로 동물타입별로 묶고, 각 수 구하기
