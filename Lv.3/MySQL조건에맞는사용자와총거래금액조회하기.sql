@@ -7,7 +7,7 @@ GROUP BY U.USER_ID
 HAVING SUM(B.PRICE) >= 700000
 ORDER BY TOTAL_SALES;
 
-## 풀이전략, 핵심 아이디어
-# WHERE : 그룹화하기 전에 개별 데이터 필터링
-# GROUP BY : 사용자별로 데이터 묶기
-# HAVING : 그룹화한 결과에 조건 적용
+-- 풀이전략, 핵심 아이디어
+-- WHERE : 그룹화하기 전에 개별 데이터 필터링
+-- GROUP BY : 사용자별로 데이터 묶기
+-- HAVING : 그룹화한 결과에 조건 적용
