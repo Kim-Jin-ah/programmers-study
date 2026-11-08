@@ -2,4 +2,4 @@ SELECT ANIMAL_ID,NAME,DATETIME
 FROM ANIMAL_INS
 ORDER BY NAME, DATETIME Desc;
 
-# 두가지 기준으로 정렬하는 문제
+-- 두가지 기준으로 정렬하는 문제
