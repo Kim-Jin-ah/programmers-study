@@ -5,4 +5,4 @@ ON B.AUTHOR_ID = A.AUTHOR_ID
 WHERE B.CATEGORY = '경제'
 ORDER BY B.PUBLISHED_DATE;
 
-# 두 테이블을 연결하고 카테고리가 경제인 것만 찾아 추출
+-- 두 테이블을 연결하고 카테고리가 경제인 것만 찾아 추출
