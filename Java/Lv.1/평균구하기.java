@@ -8,4 +8,4 @@ class Solution {
     }
 }
 
-# 향상된 for문으로 sum을 구하고 전체 개수로 나누기
+// 향상된 for문으로 sum을 구하고 전체 개수로 나누기
