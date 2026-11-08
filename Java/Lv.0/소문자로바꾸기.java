@@ -4,4 +4,4 @@ class Solution {
     }
 }
 
-# toLowercase 사용하여 모두 소문자로 변경
+// toLowercase 사용하여 모두 소문자로 변경
