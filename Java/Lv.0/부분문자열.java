@@ -6,4 +6,4 @@ class Solution {
     }
 }
 
-# contains() 메서드 사용
+// contains() 메서드 사용
