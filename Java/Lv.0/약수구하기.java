@@ -18,7 +18,7 @@ class Solution {
     }
 }
 
-# 또는 Arraylist를 사용하여
+// 또는 Arraylist를 사용하여
 import java.util.ArrayList;
 import java.util.List;
 
