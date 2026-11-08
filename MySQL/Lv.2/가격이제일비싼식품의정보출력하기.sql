@@ -2,8 +2,8 @@ SELECT *
 FROM FOOD_PRODUCT
 ORDER BY PRICE Desc Limit 1;
 
-# ORDER BY와 LIMIT을 사용하여 내림차순 후 첫번째 행만 출력
-# MAX를 사용한다면
+-- ORDER BY와 LIMIT을 사용하여 내림차순 후 첫번째 행만 출력
+-- MAX를 사용한다면
 SELECT *
 FROM FOOD_PRODUCT
 WHERE PRICE = (
