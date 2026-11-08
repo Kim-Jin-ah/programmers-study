@@ -8,5 +8,5 @@ FROM USED_GOODS_BOARD
 WHERE CREATED_DATE = "2022-10-05"
 ORDER BY BOARD_ID DESC;
 
-# 다음엔 DATE_FORMAT(CREATED_DATE, '%Y-%m-%d') = '2022-10-05' 로 사용하기
-# CASE로 해당되는 조건의 단어 바꾸기
+-- 다음엔 DATE_FORMAT(CREATED_DATE, '%Y-%m-%d') = '2022-10-05' 로 사용하기
+-- CASE로 해당되는 조건의 단어 바꾸기
