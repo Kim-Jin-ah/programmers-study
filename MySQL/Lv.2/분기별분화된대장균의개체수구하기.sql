@@ -9,5 +9,5 @@ FROM ECOLI_DATA
 GROUP BY QUARTER
 ORDER BY QUARTER;
 
-## CASE를 사용하여 범위에 대한 필터링
-# 문자열 사전순 정렬과 숫자순 정렬이 같기 때문에 QUARTER로 정렬해도 됨 주의
+-- CASE를 사용하여 범위에 대한 필터링
+-- 문자열 사전순 정렬과 숫자순 정렬이 같기 때문에 QUARTER로 정렬해도 됨 주의
