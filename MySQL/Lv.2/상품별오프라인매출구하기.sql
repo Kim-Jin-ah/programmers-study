@@ -5,5 +5,5 @@ JOIN OFFLINE_SALE O
 GROUP BY P.PRODUCT_CODE
 ORDER BY SALES DESC, P.PRODUCT_CODE ASC;
 
-# 상품별 판매량과 판매가를 곱한 뒤, 상품별로 매출을 합산해야한다 는 점이 포인트
-# SUM 잊지 말고 해야함. 문제 잘 보기
+-- 상품별 판매량과 판매가를 곱한 뒤, 상품별로 매출을 합산해야한다 는 점이 포인트
+-- SUM 잊지 말고 해야함. 문제 잘 보기
