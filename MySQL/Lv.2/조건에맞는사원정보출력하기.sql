@@ -7,4 +7,4 @@ ON HG.EMP_NO = E.EMP_NO
 ORDER BY SCORE DESC
 LIMIT 1;
 
-# ORDER BY 후 LIMIT 1을 사용하면 정렬 후 첫번쨰 결과 하나만 출력임을 기억하기
+-- ORDER BY 후 LIMIT 1을 사용하면 정렬 후 첫번쨰 결과 하나만 출력임을 기억하기
