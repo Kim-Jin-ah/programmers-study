@@ -4,5 +4,5 @@ GROUP BY USER_ID, PRODUCT_ID
 HAVING COUNT(*) >= 2
 ORDER BY USER_ID ASC, PRODUCT_ID DESC;
 
-## 풀이전략, 핵심 아이디어
-# 그룹화 대상이 두 개일 수 있음 기억하기
+-- 풀이전략, 핵심 아이디어
+-- 그룹화 대상이 두 개일 수 있음 기억하기
