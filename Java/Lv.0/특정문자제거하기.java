@@ -4,9 +4,9 @@ class Solution {
     }
 }
 
-## 풀이전략, 핵심 아이디어
-# replace로 해당 문자 없애기
-# StringBuilder로 푼다면
+// 풀이전략, 핵심 아이디어
+// replace로 해당 문자 없애기
+// StringBuilder로 푼다면
 class Solution {
     public String solution(String my_string, String letter) {
         StringBuilder sb = new StringBuilder();
