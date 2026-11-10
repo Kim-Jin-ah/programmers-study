@@ -1,0 +1,11 @@
+SELECT I.NAME, I.DATETIME
+FROM ANIMAL_INS I
+LEFT OUTER JOIN ANIMAL_OUTS O
+ON I.ANIMAL_ID = O.ANIMAL_ID
+WHERE O.ANIMAL_ID IS NULL
+ORDER BY I.DATETIME
+LIMIT 3;
+
+-- 풀이전략, 핵심 아이디어
+-- LEFT JOIN으로 입양 정보 연결 후 WHERE에서 입양 기록 없는 동물 조회
+-- 보호 시작일 기준으로 오름차순 정렬 후 상위 3개만 출력
