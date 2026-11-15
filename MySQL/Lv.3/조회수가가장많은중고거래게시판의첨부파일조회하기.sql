@@ -1,0 +1,11 @@
+SELECT CONCAT('/home/grep/src/',F.BOARD_ID,'/',F.FILE_ID,F.FILE_NAME,F.FILE_EXT) AS FILE_PATH
+FROM USED_GOODS_FILE F
+INNER JOIN USED_GOODS_BOARD AS B
+ON F.BOARD_ID = B.BOARD_ID
+WHERE B.VIEWS = (SELECT MAX(VIEWS)
+            FROM USED_GOODS_BOARD)
+ORDER BY F.FILE_ID DESC;
+
+-- 풀이전략, 핵심 아이디어
+-- 조회수가 가장 높은 게시물을 찾을 때 WHERE 서브쿼리 활용하는 것이 핵심
+-- GROUP을 쓰지 않고 바로 MAX()를 쓸 수 없음 기억하기!!
