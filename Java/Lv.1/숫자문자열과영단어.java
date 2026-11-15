@@ -10,4 +10,4 @@ class Solution {
 }
 
 // 풀이전략, 핵심 아이디어
-// 0부터 9까지 words를 반복하면서, 문자열 안의 모든 영단어들을 replace
+// 0부터 9까지 words를 순회하면서, 문자열 안의 모든 영단어들을 replace
