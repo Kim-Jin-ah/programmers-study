@@ -1,0 +1,8 @@
+SELECT CAR_ID,
+    IF(MAX('2022-10-16' BETWEEN START_DATE AND END_DATE) = 1, '대여중', '대여 가능') AS AVAILABILITY
+FROM CAR_RENTAL_COMPANY_RENTAL_HISTORY
+GROUP BY CAR_ID
+ORDER BY CAR_ID DESC;
+
+-- 풀이전략, 핵심 아이디어
+-- 자동차별로 그룹화 후 BETWEEN을 활용해 날짜 포함 여부 확인 + MAX 함수를 이용한 조건 체크
