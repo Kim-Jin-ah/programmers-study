@@ -1,5 +1,6 @@
 # programmers-study
 Python,Java,MySQL 공부 기록
+(@표시는 다시 볼 문제)
 
 # 구조(Python,Java)
 - Lv0: 기초
