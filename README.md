@@ -1,4 +1,4 @@
-# programmers-study
+# StudyForMe
 Python,Java,MySQL 공부 기록
 (@표시는 다시 볼 문제)
 
@@ -6,6 +6,7 @@ Python,Java,MySQL 공부 기록
 - Lv0: 기초
 - Lv1: 완전탐색 / 정렬 / 구현
 - Lv2: DFS/BFS / 그래프 / 시뮬레이션
+- Lv3: 심화
 
 # 기록 방식(Python,Java,MySQL)
 - 문제명으로 파일 생성
@@ -26,6 +27,7 @@ Python,Java,MySQL 공부 기록
 - 수학적으로 생각이 필요한 문제나 비트 관련 문제를 너무 꼬아놓은 문제를 제외하고, 나머지 106문제 문제풀이 완료
 
 **Lv.3 진행중**
+**baekjoon 실버3 ~ 1 문제 풀이 진행중** 
 
 # Java 진행 상황
 **Lv.0 ~11/01 완료**
