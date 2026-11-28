@@ -10,3 +10,11 @@ ORDER BY MAX_PRICE DESC;
 
 -- 풀이전략, 핵심 아이디어
 -- GROUP BY로 분류별 최대 가격을 구한 다음, 원본 테이블에서 해당 식품의 정보를 찾는 것이 핵심
+-- WHERE 부분을
+WHERE (CATEGORY, PRICE) IN (
+    SELECT CATEGORY, MAX(PRICE)
+    FROM FOOD_PRODUCT
+    GROUP BY CATEGORY
+)
+AND CATEGORY IN ('과자', '국', '김치', '식용유')
+-- 이렇게 AND로 이어도 상관없음
